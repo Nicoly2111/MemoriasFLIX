@@ -1,11 +1,22 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
 
 img {
     height: 100px;
 }
 
 img {
-    height: 200px;
-}
+  
 .categoria-videos {
 display: flex;
 overflow-x: auto;
@@ -20,5 +31,10 @@ gap: 10px
 
 .categoria-videos img {
     opacity: 0.5;
-  
+    height: 200px
+}
+
+.categoria-videos img:houver {
+    opacity: 1.0;
+
 }
