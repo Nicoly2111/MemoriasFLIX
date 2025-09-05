@@ -36,5 +36,6 @@ gap: 10px
 
 .categoria-videos img:houver {
     opacity: 1.0;
-    border: 1px
+    border: 1px solid purple;
 }
+
